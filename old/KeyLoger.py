@@ -201,6 +201,8 @@ def printing_and_deleting_dictionary_keys(order):
         print(software_log[key])
         software_log.pop(key)
 
+
+
 def stopping_the_software():
     """
     This function is activated when a defined keyboard shortcut is pressed, and it performs a shutdown on all software activity step by step.
@@ -209,6 +211,8 @@ def stopping_the_software():
     keys.stop()
     listener.stop()
     timer.cancel()
+
+
 
 def main():
     """
