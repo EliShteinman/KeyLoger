@@ -12,9 +12,6 @@ class Logger(ABC):
     @abstractmethod
     def get_to_keys(self) -> str:
         pass
-    @abstractmethod
-    def asd(self):
-        pass
 
 class MyListener(Logger):
     def __init__(self) -> None:
