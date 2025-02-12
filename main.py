@@ -1,5 +1,6 @@
 import sys
 import subprocess
+from modules.key_logger_maneger import KeyLogerManeger
 
 def ensure_packages_installed(requirements_file="requirements.txt"):
     try:
@@ -17,6 +18,4 @@ def ensure_packages_installed(requirements_file="requirements.txt"):
     
     except FileNotFoundError:
         print(f"⚠️ הקובץ {requirements_file} לא נמצא!")
-
-# קרא לפונקציה בתחילת הקוד
 ensure_packages_installed()
